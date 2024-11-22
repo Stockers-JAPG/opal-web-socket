@@ -27,7 +27,6 @@ module Opal
             handler = websocket_route.handler
 
             ws_handler = HTTP::WebSocketHandler.new do |socket, ctx|
-              puts socket.inspect
               handler.on_open(socket)
               socket.on_message do |message|
                 handler.on_message(socket, message)
