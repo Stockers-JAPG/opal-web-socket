@@ -1,0 +1,9 @@
+name: opal-web-socket
+version: 1.0.0
+
+authors:
+  - Jose Antonio Padre Garcia <padre_japg@protonmail.com>
+
+crystal: '>= 1.14.0'
+
+license: MIT
